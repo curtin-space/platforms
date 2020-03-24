@@ -52,7 +52,7 @@ constraint_value(
 
 constraint_value(
     name = "armv6-m",
-    constraint_setting = "@platforms//cpu:cpu",
+    constraint_setting = ":cpu",
 )
 
 constraint_value(
